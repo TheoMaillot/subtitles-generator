@@ -27,7 +27,7 @@ This project extracts speech from a video's audio track, transcribes it, and tra
 1. Clone the repository, or download it as a ZIP and extract it:
 
    ```bash
-   git clone https://github.com/<your-username>/subtitles-generator.git
+   git clone https://github.com/TheoMaillot/subtitles-generator.git
    cd subtitles-generator
    ```
 
