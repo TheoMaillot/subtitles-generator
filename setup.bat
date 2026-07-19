@@ -1,4 +1,5 @@
 call winget install Python.Python.3.11
+call py install 3.11
 
 echo Creating venv
 call py -3.11 -m venv subtitle_venv

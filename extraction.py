@@ -8,8 +8,9 @@ def extract_audio(video_path: str):
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     output_path = os.path.join("audio", f"{video_name}_{int(time.time())}.wav")
     
+    ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
     cmd = [
-        "ffmpeg", "-y",
+        ffmpeg_exe, "-y",
         "-i", video_path,
         "-ar", "16000",
         "-ac", "1",
