@@ -1,0 +1,11 @@
+srt
+imageio-ffmpeg
+silero-vad
+soundfile
+faster-whisper
+transformers
+torch
+tqdm
+torchaudio<2.9
+customtkinter
+Pillow
