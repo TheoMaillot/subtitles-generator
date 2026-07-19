@@ -33,7 +33,7 @@ This project extracts speech from a video's audio track, transcribes it, and tra
 
 2. Double-click `setup.bat`. This will download all the required libraries and dependencies into a virtual environment. It can take a few minutes to complete.
 
-3. Launch `Subtitles Generator.exe`. This can take a few minutes the first time, and only a few seconds on subsequent launches.
+3. Launch `Subtitles Generator.bat`. This can take a few minutes the first time, and only a few seconds on subsequent launches.
 
 4. Locate the video you wish to get the subtitles from.
 
